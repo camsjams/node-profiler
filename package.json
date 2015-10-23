@@ -1,0 +1,23 @@
+{
+  "name": "script-profiler",
+  "version": "0.1.0",
+  "description": "A simple node script profiler to give you an idea of how long your script takes, for \"run once\" kinds of things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camsjams/node-script-profiler.git"
+  },
+  "keywords": [
+    "profiling",
+    "timing"
+  ],
+  "author": "Cameron Manavian <cameron.manavian@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camsjams/node-script-profiler/issues"
+  },
+  "homepage": "https://github.com/camsjams/node-script-profiler#readme"
+}
