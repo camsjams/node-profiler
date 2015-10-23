@@ -8,3 +8,13 @@ A simple node script profiler to give you an idea of how long your script takes,
 
 ## Install
 >       $ npm install script-profiler --save
+
+## Usage
+        // load into your NodeJS script
+        var profiler = require('script-profiler');
+        // start the profiler
+        profiler.start();
+        // run your manual script
+        console.log('doing lots of stuff...');
+        // stop the profiler on completion
+        profiler.stop();
