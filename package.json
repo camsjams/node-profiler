@@ -1,7 +1,7 @@
 {
   "name": "node-profiler",
   "version": "0.1.0",
-  "description": "A simple node script profiler for \"run once\" kinds of things",
+  "description": "A simple node script profiler to give you an idea of how long your script takes, for \"run once\" kinds of things",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
