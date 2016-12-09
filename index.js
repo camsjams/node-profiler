@@ -14,9 +14,9 @@ function format(milliseconds) {
 	var hours, minutes, seconds;
 	hours = ~~(minutes = ~~(seconds = ~~(milliseconds / 1000)) / 60) / 60;
 	return pad(hours) + ':' +
-		   pad(minutes) + ':' +
-		   pad(seconds) +
-		   ((milliseconds === 0) ? '' : '.' + (milliseconds % 1000));
+			pad(minutes) + ':' +
+			pad(seconds) +
+			((milliseconds === 0) ? '' : '.' + (milliseconds % 1000));
 }
 
 function pad(timeVal) {
